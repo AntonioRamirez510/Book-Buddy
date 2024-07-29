@@ -1,0 +1,12 @@
+import './App.css'
+
+function App() {
+
+  return (
+    <>
+    <h1>Book Buddy</h1>
+    </>
+  )
+}
+
+export default App
