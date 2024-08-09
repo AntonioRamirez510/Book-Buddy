@@ -9,7 +9,7 @@ const BooksList = () => {
   const fetchBooks = async () => {
     try {
       const response = await axios.get(`${BASE_URL}api/books`);
-      setBooks(response.data);
+      setBooks(response.data.books);
     } catch (error) {
       console.error('Error fetching books:', error);
     }
